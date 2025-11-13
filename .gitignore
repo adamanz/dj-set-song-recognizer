@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Audio files
+*.mp3
+*.wav
+*.flac
+*.aiff
+*.m4a
+
+# Output files
+*_results.json
+*_tracklist.txt
+shopping_list.txt
+tracks_to_download.txt
+
+# Rekordbox
+rekordbox.xml
+*.pdb
+
+# System
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temp
+/tmp/
+*.tmp
+chunks/

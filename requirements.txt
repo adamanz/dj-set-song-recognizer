@@ -1,0 +1,15 @@
+# DJ Set Song Recognizer Requirements
+# Python 3.11 or 3.12 required (NOT 3.14)
+
+# Core dependencies
+shazamio>=0.8.1
+aiofiles>=23.2.1
+aiohttp>=3.8.3
+requests>=2.32.0
+
+# Optional: Rekordbox integration
+pyrekordbox>=0.3.0  # For Rekordbox CLI helper
+
+# Note: ffmpeg and yt-dlp must be installed separately
+# macOS: brew install ffmpeg yt-dlp
+# Linux: sudo apt install ffmpeg && sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp && sudo chmod +x /usr/local/bin/yt-dlp
